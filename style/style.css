@@ -79,8 +79,13 @@ body{
     height: 52rem;
     background-color: var(--color-secundario);
     font-size: 3rem;
+    font-family: var(--fuente-inter);
     border-radius: 3.2rem;
     color: var(--color-base);
+    padding: 1rem;
+    box-sizing: border-box; 
+    resize: none;
+    overflow: auto; 
 
 }
 
@@ -166,6 +171,14 @@ body{
     border-radius: 3.2rem;
     align-content: center;
 }
+
+.presentacion__contenido__desencriptado__resultado{
+    font-family: var(--fuente-inter);
+    font-size: 2rem;
+    color: var(--color-base);
+    margin: 0% 9%;
+}
+
 .presentacion__contenido__desencriptado_muñeco{
     padding: 2.5rem;
 
@@ -188,6 +201,31 @@ body{
     text-align: center;
     padding: 0% 8% 0% 8%;
     
+}
+
+.presentacion__contenido__desencriptado__copiar{
+    width: 32.8rem;
+    height: 6.7rem;
+    margin: 15% 9% 0%;
+    border-radius: 2.4rem;
+    font-family: var(--fuente-inter);
+    font-size: 1.6rem;
+    background-color: var(--color-secundario);
+    color: var(--color-base);
+    border: 0.1rem solid var(--color-secundario);
+    
+}
+
+.presentacion__contenido__desencriptado__copiar:hover{
+    background-color: var(--color-active);
+    border: 0.1rem solid var(--color-secundario);
+    color: var(--color-base);
+}
+
+.presentacion__contenido__desencriptado__copiar:active{
+    background-color: var(--color-primario);
+    border: 0.1rem solid var(--color-secundario);
+    color: var(--color-base);
 }
 
 .footer{
