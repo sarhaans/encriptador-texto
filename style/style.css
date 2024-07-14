@@ -7,6 +7,7 @@
     --color-terciario: #37B7C3;
     --color-base: #EBF4F6;
     --color-alterno: #D8DFE8;
+    --color-active: #7D7C7C;
 
     --fuente-inter: 'Inter', sans-serif;
     --fuente-josefin: 'Josefin Sans', sans-serif;
@@ -21,13 +22,13 @@
 
 html{
     font-size: 62.5%;
+
 }
 
 body{
-
-    box-sizing: border-box;
     background-color: var(--color-base);
-
+    height: 100%;
+    margin: 0;
 }
 
 .header{
@@ -127,6 +128,12 @@ body{
     color: var(--color-base);
 }
 
+.presentacion__contenido__encriptado__boton__encriptar:active{
+    background-color: var(--color-active);
+    border: 0.1rem solid var(--color-secundario);
+    color: var(--color-base);
+}
+
 .presentacion__contenido__encriptado__boton__desencriptar{
     width: 32.8rem;
     height: 6.7rem;
@@ -143,6 +150,14 @@ body{
     border: 0.1rem solid var(--color-secundario);
     color: var(--color-base);
 }
+
+.presentacion__contenido__encriptado__boton__desencriptar:active{
+    background-color: var(--color-active);
+    border: 0.1rem solid var(--color-secundario);
+    color: var(--color-base);
+}
+
+
 
 .presentacion__contenido__desencriptado{
     width: 40rem;
@@ -173,6 +188,26 @@ body{
     text-align: center;
     padding: 0% 8% 0% 8%;
     
+}
+
+.footer{
+    display: flex;
+    width: 144rem;
+    height: 10rem;
+    
+}
+
+.footer__redes{
+    align-content: center;
+    gap: 20rem;
+}
+
+.footer__redes__github{
+   
+}
+
+.footer__redes__linkedin{
+
 }
 
 
