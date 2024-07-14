@@ -37,6 +37,8 @@ function encriptado(){
     let aux = document.getElementById('resultado');
     aux.innerText = textoResultado;
     console.log(textoResultado);
+   visibilidad();
+
 }
 
 function desencriptar(){
@@ -72,6 +74,7 @@ function desencriptar(){
     let aux = document.getElementById('resultado');
     aux.innerText = textoResultado;
     console.log(textoResultado);
+    visibilidad();
 }
 
 function inicializacion() {
@@ -88,4 +91,12 @@ function copit() {
                 console.error('Error al copiar el texto: ', err);
             });
 
+}
+
+function visibilidad(){
+    document.getElementById('copit').style.display = 'inline';
+    document.getElementById('resultado').style.display = 'inline';
+    document.querySelector('.presentacion__contenido__desencriptado_subtitulo').style.display = 'none';
+    document.querySelector('.presentacion__contenido__desencriptado_muñeco').style.display = 'none';
+    document.querySelector('.presentacion__contenido__desencriptado_texto').style.display = 'none';
 }

@@ -82,11 +82,17 @@ body{
     font-family: var(--fuente-inter);
     border-radius: 3.2rem;
     color: var(--color-base);
-    padding: 1rem;
+    padding: 3rem;
     box-sizing: border-box; 
     resize: none;
     overflow: auto; 
+    outline: none;
 
+}
+
+.presentacion__contenido__encriptado__input::placeholder {
+    color: var(--color-base);
+    opacity: 0.5;
 }
 
 .señal__texto{
@@ -173,10 +179,15 @@ body{
 }
 
 .presentacion__contenido__desencriptado__resultado{
+    width: 33rem;
+    height: 55rem;
     font-family: var(--fuente-inter);
     font-size: 2rem;
     color: var(--color-base);
     margin: 0% 9%;
+    overflow: scroll;
+    box-sizing: border-box;
+    display: none;
 }
 
 .presentacion__contenido__desencriptado_muñeco{
@@ -207,12 +218,14 @@ body{
     width: 32.8rem;
     height: 6.7rem;
     margin: 15% 9% 0%;
+    position: ;
     border-radius: 2.4rem;
     font-family: var(--fuente-inter);
     font-size: 1.6rem;
     background-color: var(--color-secundario);
     color: var(--color-base);
     border: 0.1rem solid var(--color-secundario);
+    display: none;
     
 }
 
