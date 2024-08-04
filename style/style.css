@@ -160,23 +160,26 @@ body{
 
 
 .presentacion__contenido__desencriptado{
-    width: 40rem;
+    width: 32.8rem;
     height: 74.6rem;
     background-color: var(--color-primario);
     border-radius: 3.2rem;
     align-content: center;
+    padding: 3%;
 }
 
 .presentacion__contenido__desencriptado__resultado{
-    width: 33rem;
-    height: 55rem;
+    width: 32.8rem;
+    height: 65rem;
+    margin-bottom: 5%;
     font-family: var(--fuente-inter);
     font-size: 2rem;
+    border: none;
+    resize: none;
     color: var(--color-base);
-    margin: 0% 9%;
-    overflow: scroll;
-    box-sizing: border-box;
     display: none;
+    color: var(--color-base);
+    background-color: var(--color-primario);
 }
 
 .presentacion__contenido__desencriptado_muñeco{
@@ -206,8 +209,6 @@ body{
 .presentacion__contenido__desencriptado__copiar{
     width: 32.8rem;
     height: 6.7rem;
-    margin: 15% 9% 0%;
-    position: ;
     border-radius: 2.4rem;
     font-family: var(--fuente-inter);
     font-size: 1.6rem;
@@ -251,7 +252,6 @@ body{
     height: 5rem;
     padding: 1rem;
 }
-
 
 
 
